@@ -171,7 +171,7 @@ namespace FreesoundDownloader
                     }
                     else
                     {
-                        Console.WriteLine("ERROR: Sort type invalid");
+                        Console.WriteLine("ERROR: Sort type invalid. Use help to see valid options.");
                         Console.Read();
                         Environment.Exit(0);
                     }
